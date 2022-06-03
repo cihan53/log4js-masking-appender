@@ -8,7 +8,7 @@ Use the package manager [npm](https://www.npmjs.com/) to install log4js-masking-
 
 ```bash
 npm install log4js --save
-npm install log4js-masking-appender --save
+npm install log4js-masking-appender-new --save
 ```
 
 ## Usage
@@ -20,7 +20,7 @@ log4js.configure({
   appenders: {
     console: {type: 'console'},
     masking: {
-      type: 'log4js-masking-appender',
+      type: 'log4js-masking-appender-new',
     },
   },
   categories: {
@@ -94,7 +94,8 @@ keywords = {
     "followup_Number",
     "tem:ServiceNumber",
     "CallerPassword",
-    "CallerID"
+    "CallerID",
+    "authkey"
 }
 ```
 
