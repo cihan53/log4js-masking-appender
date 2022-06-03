@@ -1,6 +1,6 @@
 {
   "name": "log4js-masking-appender-new",
-  "version": "2.13.5",
+  "version": "2.13.6",
   "description": "",
   "main": "index.js",
   "scripts": {
